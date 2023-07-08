@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D4C47A1A-8DB8-48AF-83B4-F66EFA3E9605}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "api", "api", "{B082B048-5E4E-49C4-9648-141C7CDFC02E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "services", "services", "{E7ADBBC7-0F94-4148-B8CC-6F0F429DC443}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventHandlingwithKafkaTopic.API", "EventHandlingwithKafkaTopic.API\EventHandlingwithKafkaTopic.API.csproj", "{96A383D7-00D0-470E-9149-6E6764169B32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventHandlingwithKafkaTopic.Services", "EventHandlingwithKafkaTopic.Services\EventHandlingwithKafkaTopic.Services.csproj", "{5BFF19CE-8F7B-4AE3-8A39-F8C167B28511}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96A383D7-00D0-470E-9149-6E6764169B32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96A383D7-00D0-470E-9149-6E6764169B32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96A383D7-00D0-470E-9149-6E6764169B32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96A383D7-00D0-470E-9149-6E6764169B32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BFF19CE-8F7B-4AE3-8A39-F8C167B28511}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BFF19CE-8F7B-4AE3-8A39-F8C167B28511}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BFF19CE-8F7B-4AE3-8A39-F8C167B28511}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BFF19CE-8F7B-4AE3-8A39-F8C167B28511}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B082B048-5E4E-49C4-9648-141C7CDFC02E} = {D4C47A1A-8DB8-48AF-83B4-F66EFA3E9605}
+		{E7ADBBC7-0F94-4148-B8CC-6F0F429DC443} = {D4C47A1A-8DB8-48AF-83B4-F66EFA3E9605}
+		{96A383D7-00D0-470E-9149-6E6764169B32} = {B082B048-5E4E-49C4-9648-141C7CDFC02E}
+		{5BFF19CE-8F7B-4AE3-8A39-F8C167B28511} = {E7ADBBC7-0F94-4148-B8CC-6F0F429DC443}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DAAF1681-5D4D-44A2-ADD4-F4ED266B45BE}
+	EndGlobalSection
+EndGlobal
